@@ -1,3 +1,11 @@
+export interface MovieSchema{
+    id?:string
+    name:string
+    genre:string
+    duration:string
+    releaseDate:string
+}
+
 export interface Users{
 	id?: string
 	first_name: string
